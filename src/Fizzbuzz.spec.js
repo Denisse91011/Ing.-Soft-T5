@@ -28,6 +28,14 @@ describe("Fizzbuzz", () => {
 describe("Fizzbuzz", () => {
     it("deberia volver un numero multiplo de 5", () => {
         expect(Fizzbuzz(25)).toEqual("Buzz");
-    })
-})
+    });
+});
+
+// Cuarto intento
+
+describe("Fizzbuzz", () => {
+    it("deberia volver un numero multiplo de 3 y 5", () => {
+        expect(Fizzbuzz(15)).toEqual("Fizzbuzz");
+    });
+});
 

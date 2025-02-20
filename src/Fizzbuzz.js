@@ -1,13 +1,14 @@
-function Fizzbuzz(num){
-    if (num % 3 === 0){
-        return "Fizz"
+function Fizzbuzz(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        return "Fizzbuzz"; 
     }
-    if (num % 5 === 0){
-        return "Buzz"
+    if (num % 3 === 0) {
+        return "Fizz";
     }
-    else{
-        return "num"
+    if (num % 5 === 0) {
+        return "Buzz";
     }
+    return "num"; 
 }
-export default Fizzbuzz
 
+export default Fizzbuzz;
