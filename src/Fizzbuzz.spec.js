@@ -4,7 +4,16 @@ import Fizzbuzz from "./Fizzbuzz.js"
 
 describe("Fizzbuzz", () => {
     it("deberia devolver el numero en si en modo de cadena", () => {
-      expect(Fizzbuzz()).toEqual("1");
+      expect(Fizzbuzz()).toEqual("num");
     });
   });
+
+
+// Segundo intento
+
+describe("Fizzbuzz", () => {
+    it("deberia volver un numero multiplo de 3", () => {
+        expect(Fizzbuzz(6)).toEqual("Fizz");
+    });
+});
 
