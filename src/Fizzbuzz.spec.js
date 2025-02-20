@@ -13,7 +13,21 @@ describe("Fizzbuzz", () => {
 
 describe("Fizzbuzz", () => {
     it("deberia volver un numero multiplo de 3", () => {
+        expect(Fizzbuzz(3)).toEqual("Fizz");
+    });
+});
+
+describe("Fizzbuzz", () => {
+    it("deberia volver un numero multiplo de 3", () => {
         expect(Fizzbuzz(6)).toEqual("Fizz");
     });
 });
+
+// Tercer intento
+
+describe("Fizzbuzz", () => {
+    it("deberia volver un numero multiplo de 5", () => {
+        expect(Fizzbuzz(25)).toEqual("Buzz");
+    })
+})
 
